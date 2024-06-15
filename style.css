@@ -1,0 +1,45 @@
+:root {
+  --blue: #39578b;
+  --white: #ffffff;
+  --offwhite: #f9f9f9;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  height: 100vh;
+}
+
+.contact-info {
+  background-color: var(--white);
+}
+
+.skills {
+  background-color: var(--offwhite);
+}
+
+.profile-pic {
+  width: 200px;
+}
+
+.circle-border {
+  border-radius: 50%;
+  border: 10px solid var(--white);
+  outline: 10px solid var(--blue);
+}
+
+.icon-small {
+  width: 20px;
+  border-radius: 50%;
+  background-color: var(--blue);
+}
+
+.contact-info > div {
+  padding: 50px;
+}
